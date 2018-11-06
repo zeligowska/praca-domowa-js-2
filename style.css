@@ -10,6 +10,7 @@ body {
     color: darkgrey;
     font-size: 36px;
     font-weight: 100;
+    height: -webkit-fill-available;
 }
 
 .clock-plate {
