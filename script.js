@@ -1,5 +1,3 @@
-var myVar = setInterval(myTimer, 1000);
-
 function myTimer() {
     var d = new Date();
     var hours = d.getHours().toString();
@@ -23,3 +21,6 @@ function myTimer() {
     document.getElementById("seconds1").innerHTML = seconds[0];
     document.getElementById("seconds2").innerHTML = seconds[1];
 }
+
+myTimer();
+var myVar = setInterval(myTimer, 1000);
